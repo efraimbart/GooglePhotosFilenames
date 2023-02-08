@@ -1,0 +1,16 @@
+﻿{
+  "manifest_version": 3,
+  "name": "Google Photos Filenames",
+  "version": "1.0",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "webRequest",
+    "scripting"
+  ],
+  "host_permissions": [
+    "*://photos.google.com/*",
+    "*://*.googleusercontent.com/*"
+  ]
+}
